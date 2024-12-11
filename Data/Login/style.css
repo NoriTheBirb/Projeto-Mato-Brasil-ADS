@@ -1,0 +1,255 @@
+html {
+	scroll-behavior: smooth;
+	box-shadow: inset black 0px 0px 20px 4px;
+}
+
+body {
+	margin: 0px;
+	background-image: url(../../Resource/imagens/um-denso-dossel-da-selva-com-uma-flora-vibrante-e-variada-escondendo-criaturas-misteriosas-dentro-de-suas-sombras.jpg);
+	background-size: cover;
+	font-family: "Poppins", sans-serif;
+}
+
+a {
+	color: white;
+}
+
+img {
+	max-width: 100%;
+}
+
+#navLeft {
+	margin-left: 1%;
+	color: white;
+}
+
+#logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+#logoImg {
+	width: 15%;
+	height: auto;
+}
+
+#body #informacoes {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	letter-spacing: 2px;
+	padding: 70px 100px;
+	max-width: 500%;
+}
+
+#body #informacoes h1{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	letter-spacing: 2px;
+	padding: 0px 100px;
+	text-align:center;
+}
+
+#body .container-foto img {
+	max-width: 80%;
+	max-height: 90%;
+	padding: 10px 12% 10px;
+	border-radius: 18%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to top, transparent -200%, black 100%);
+	width: 100%;
+	height: 75px;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+#navLeft {
+	margin-left: 1%;
+	color: white;
+}
+
+#navLeft:hover {
+	cursor: pointer;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to top, transparent -200%, black 100%);
+	width: 100%;
+	height: 75px;
+}
+
+#logo {
+    display: flex;
+    width: 6%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#logoLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logoImg {
+    width: 100%;
+    height: auto;
+}
+
+#profile {
+    overflow: hidden;
+    border-radius: 100px;
+    width: 5vh;
+    height: 5vh;
+    margin-right: 1%;
+    margin-left: 1vh;
+}
+
+#profile:hover {
+	cursor: pointer;
+}
+
+.bRed {
+    display: flex;
+    border: solid #515151 2px;
+    border-radius: 100px;
+    width: 179px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 16px 0px #353535;
+	transition: 0.7s;
+	text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.bRed:hover {
+	box-shadow: inset 0px 0px 20px 6px #ffffff;
+}
+
+/* Body */
+
+#body {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1120px;
+    height: 1000px;
+    background-size: 120% 120%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#loginBox {
+    border: solid;
+    display: flex;
+    height: 600px;
+    width: 570px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+/* 
+.bRed {
+    display: flex;
+    border: solid #515151 2px;
+    border-radius: 100px;
+    width: 179px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 16px 0px #353535;
+	transition: 0.7s;
+	text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+*/
+
+
+h1 {
+    margin-top: 37px;
+    margin-bottom: 130px;
+}
+
+.boxes {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: solid;
+    border-radius: 10px;
+}
+
+#BoxesDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+}
+
+div#LabelBox {
+    display: flex;
+    width: 350px;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+#labelC {
+	color: black;
+}
+
+#labelE {
+	color: black;
+}
+
+#botao {
+    width: 250px;
+    height: 50px;
+    border: solid;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#loginP {
+    color: white;
+    font-size: 14px;
+}
+
+div#loginBox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 151px;
+}
+
+#loginP:hover {
+    cursor: pointer;
+}

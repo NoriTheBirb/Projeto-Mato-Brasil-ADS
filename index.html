@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="Resource/imagens/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+
+        <span id="navLeft" class="material-symbols-outlined">menu</span>
+
+        <a class="bRed" href="Data/Indigena/indigena.html">Indigenas</a>
+        <a class="bRed" href="Data/Fauna/fauna.html">Fauna</a>
+        <div id="logo">
+            <a id="logoLink" href="index.html">
+                <img id="logoImg" src="Resource/imagens/logo.png" alt="">
+            </a>
+        </div>
+        <a class="bRed" href="Data/Flora/flora.html">Flora</a>
+        <a class="bRed" href="Data/Global/global.html">Global</a>
+
+        <div id="loginBox">
+            <p id="loginP" onclick="red2()">Fazer Login</p>
+            <div onclick="red2()" id="profile">
+                <img src="Resource/imagens/23408e565fc3f43454636fec27572d1f.jpg" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <div id="body">
+
+        <div id="subLogo">
+            <img src="Resource/imagens/logo.png" alt="">
+        </div>
+       
+       <div id="subTitle">
+           <h1>Mato Brasil</h1>
+           <p class="textBody">O site N.º1 para informações sobre mato</p>
+       </div>
+    </div>
+
+    <div id="break">
+        <hr>
+    </div>
+
+    <div id="NoticiasT">
+        <h1 id="notH1" class="textBody">Ultimas Noticias</h1>
+    </div>
+
+    <div id="Noticias">
+        <div onclick="red(0)" class="nots" id="n1">
+
+            <div class="notDiv" id="insN1">
+
+                <h2 class="h2Form" id="noth2">Sistema utiliza IA para detectar animais selvagens na pista e evitar acidentes</h2>
+                <p class="notRes">Pesquisadores da USP de São Carlos buscam parceria com concessionárias de rodovias para testar modelo.</p>
+            </div>
+
+        </div>
+
+        <div onclick="red(1)" class="nots" id="n2">
+
+            <div class="notDiv" id="insN2">
+
+                <h2 class="h2Form" id="not2h2">Pesquisa em local intocado revela alcance das mudanças climáticas</h2>
+                <p class="notRes">Colaboração entre Brasil e Chile realiza estudos na região subantártica chilena, uma das mais remotas do mundo</p>
+            </div>
+
+        </div>
+
+        <div onclick="red(2)" class="nots" id="n3">
+
+            <div class="notDiv" id="insN3">
+
+                <h2 class="h2Form" id="not2h2">Amazônia em chamas – número de queimadas de janeiro a abril é 132% maior que 2023</h2>
+                <p class="notRes">Em todo o Brasil, número de queimadas computado nos quatro primeiros meses do ano é o maior da série histórica do INPE, iniciada em 1998</p>
+            </div>
+
+        </div>
+
+        <div onclick="red(3)" class="nots" id="n4">
+
+            <div class="notDiv" id="insN4">
+
+                <h2 class="h2Form" id="not2h2">Desmatamento em Terras Indígenas da Amazônia é o menor desde 2018</h2>
+                <p class="notRes">Durante o calendário do desmatamento, que vai de agosto a março, as terras indígenas da Amazônia tiveram uma redução de 42% na derrubada de floresta no último período analisado, é a menor área desmatada desde 2018</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script>
+    function red(page){
+
+        switch (page) {
+            case 0:
+                window.location.href = "Data/Fauna/fauna.html"
+                break;
+            case 1:
+                window.location.href = "Data/Global/global.html"
+                break;
+            case 2:
+                window.location.href = "Data/Flora/flora.html"
+                break;
+            case 3:
+            window.location.href = "Data/Indigena/indigena.html"
+                break;
+        }
+    }
+
+    function red2() {
+        window.location.href = "Data/Login/login.html"
+    }
+</script>
+</html>
