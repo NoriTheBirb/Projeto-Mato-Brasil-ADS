@@ -45,3 +45,12 @@ Espaço para compartilhamento de experiências, fotografias e relatos de profiss
 
 #### Público-alvo:
 
+Estudantes e Educadores: Que buscam conteúdos didáticos e recursos visuais sobre a biodiversidade.
+
+Pesquisadores e Profissionais Ambientais: Que necessitam de dados sobre fauna, flora e conservação.
+
+Turistas e Aventureiros: Interessados em explorar trilhas, parques e reservas naturais do Brasil.
+
+Amantes da Natureza e Sociedade em Geral: Que desejam conhecer e valorizar a riqueza natural do Brasil e do mundo.
+
+Organizações Ambientais: Que buscam promover a conscientização e encontrar parceiros em projetos de conservação.
