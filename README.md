@@ -17,15 +17,31 @@
 ### Descrição do Projeto
 **Nome do Projeto:** **Mato Brasil** - Plataforma de noticias sobre as matas brasileiras
 
-O **Mato Brasil** é um projeto criado visando conscientizar as pessoas a respeito da biodiversidade brasileira e como preserva-la.
+O **Mato Brasil** é uma plataforma informativa dedicada a divulgar e celebrar a riqueza da fauna e flora do Brasil, bem como abordar curiosidades sobre a biodiversidade global. O site visa educar e conscientizar sobre a importância da preservação dos ecossistemas, destacando a beleza, diversidade e singularidade da natureza brasileira.
 
 #### Objetivo
 
-O objetivo do projeto é proporcionar uma página repleta de noticias sobre a flora e fauna brasileira, 
+O principal objetivo do site é ser uma fonte confiável e acessível de informações sobre a biodiversidade brasileira, promovendo a valorização da fauna e flora nativa e fomentando a conscientização ambiental. O Mato Brasil também busca aproximar o público das maravilhas naturais globais, incentivando a educação ambiental e práticas sustentáveis.
 
 #### Principais Funcionalidades:
 
+Catálogo de Espécies
+Informações detalhadas sobre espécies da fauna e flora brasileiras, com imagens, características e curiosidades.
 
+Conteúdo Educacional
+Artigos, vídeos e infográficos sobre biodiversidade, conservação ambiental e a importância dos biomas brasileiros, como Amazônia, Pantanal, Mata Atlântica e Cerrado.
+
+Comparativo Global
+Destaque para espécies e ecossistemas internacionais que compartilham características com a biodiversidade brasileira.
+
+Notícias e Atualizações
+Notícias sobre iniciativas de preservação, projetos de sustentabilidade e alertas de espécies ameaçadas.
+
+Seção Interativa
+Quiz educativos, mapas interativos dos biomas e sugestões de trilhas ecológicas no Brasil.
+
+Blog Comunitário
+Espaço para compartilhamento de experiências, fotografias e relatos de profissionais ou amantes da natureza.
 
 #### Público-alvo:
 
